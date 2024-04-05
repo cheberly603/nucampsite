@@ -4,7 +4,7 @@ $color-pale: #CEC8FF;
 $color-mid: #901CAD;
 $color-dark: #60106b;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
-
+$color-teal: #17A2B8;
 $body-font: "Open Sans", sans-serif;
 $header-font: "Lobster", cursive;
 
@@ -65,7 +65,5 @@ footer{
     border: solid  $color-secondary;
 }
 
-.bg-image{
-    background-image: url(/img/istockphoto-1411389613-170667a.webp);
-    width: 100%;
-}
+@import 'modal';
+@import 'review-section';

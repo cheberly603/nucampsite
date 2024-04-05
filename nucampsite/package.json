@@ -2,8 +2,8 @@
   "name": "nucampsite",
   "version": "1.0.0",
   "description": "A fictional campsites review website",
-  "main": "index.js",
   "source": "index.html",
+  
   "scripts": {
     "start": "parcel --open",
     "build": "parcel build"
