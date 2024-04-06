@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "A fictional campsites review website",
   "source": "index.html",
-  
   "scripts": {
     "start": "parcel --open",
     "build": "parcel build"
@@ -17,6 +16,8 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.2.1",
-    "bootstrap": "^5.2.3"
+    "bootstrap": "^5.3.3",
+    "cache": "^3.0.0",
+    "lru": "^3.1.0"
   }
 }
